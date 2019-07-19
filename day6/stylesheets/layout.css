@@ -1,0 +1,156 @@
+/* Add layouts here */
+
+/* Layout 1 */
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	order: 1;
+	flex-basis: 100%;
+}
+
+main {
+	order: 2;
+	flex-basis: 55%;
+}
+
+.navigation {	
+	order: 3;
+	flex-basis: 45%;
+}
+
+.links {
+	order: 4;
+	flex-basis: 100%;
+}
+
+.links ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.links ul li {
+	width: 20%;
+}
+
+footer {
+	order: 5;
+	flex-basis: 100%;
+	
+}
+
+/* Layout 2 */
+/*body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	order: 1;
+	flex-basis: 100%;
+}
+
+main {
+	order: 2;
+	flex-basis: 55%;
+}
+
+.navigation {	
+	order: 3;
+	flex-basis: 45%;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end;
+	order: 4;
+	flex-basis: 100%;
+}
+
+footer {
+	order: 5;
+	flex-basis: 100%;
+}*/
+
+/* Layout 3 */
+/*body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	order: 1;
+	width: 100%;
+	flex-basis: 100%;
+}
+
+main {
+	order: 4;
+	width: 45%;
+	flex-basis: 45%;
+}
+
+.navigation {	
+	order: 3;
+	width: 30%;
+	flex-basis: 30%;
+}
+
+.links {
+	order: 5;
+	width: 25%;
+	flex-basis: 25%;
+}
+
+
+footer {
+	order: 2;
+	width: 100%;
+	flex-basis: 100%;	
+}*/
+
+/* Layout 4 */
+/*body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+p:nth-child(2) {
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+}
+
+header {
+	order: 1;
+	width: 100%;
+	flex-basis: 100%;
+}
+
+main {
+	order: 3;
+	width: 45%;
+	flex-basis: 45%;
+}
+
+.navigation {	
+	order: 2;
+	width: 30%;
+	flex-basis: 30%;
+}
+
+.links {
+	order: 4;
+	width: 25%;
+	flex-basis: 25%;
+}
+
+footer {
+	order: 5;
+	width: 100%;
+	flex-basis: 100%;	
+}*/
+
